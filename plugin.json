@@ -1,0 +1,21 @@
+{
+	"preload": "preload.js",
+	"logo": "icon/logo.png",
+	"platform": [
+		"win32"
+	],
+	"features": [
+		{
+			"code": "getFile",
+			"explain": "生成配置文件。",
+			"cmds": [
+				{
+					"type": "files",
+					"label": "设置别名",
+					"fileType": "directory",
+					"maxLength": 1
+				}
+			]
+		}
+	]
+}
